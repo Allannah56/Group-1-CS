@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 <html>
+    <style>
+        table, th, td {
+          border:1px solid black;
+        }
+        </style>
     <head>
         <title>
             Personal Portfolio
@@ -13,5 +18,61 @@
         <a href="https://www.njit.edu/academics/major/architecture"> NJIT Architecture Website</a> <br>
         <img src="https://thumbs.dreamstime.com/b/architecture-plan-tools-12802962.jpg" alt="Architecture architecture-plan-tools-12802962" style="width: 550px;height: 400px;">
         </body>
+        <div>
+            <table style="width:25%">
+                <tr>
+                    <th>Name</th>
+                    <th>Program</th>
+                    <th>GPA</th>
+                </tr>
+                <tr>
+                    <td>John Smith</td>
+                    <td>Architecture</td>
+                    <td>3.4</td>
+                </tr>
+                <tr>
+                    <td>Maria Sanders</td>
+                    <td>Computer Science</td>
+                    <td>4.0</td>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <div>
+        <form>
+            <label for="uname">Username:</label>
+            <input type="text" id="uname" name="uname">
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname">
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname">
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email"><br>
+
+            <label for="Math">Math:</label>
+            <input type="checkbox" id="Math" name="Math">
+            <label for="Architecture">Architecture:</label>
+            <input type="checkbox" id="Architecture" name="Architecture">
+            <label for="ComputerScience">Computer Science:</label>
+            <input type="checkbox" id="ComputerScience" name="Computer Science"><br>
+            <label for="Math">Math:</label>
+            <input type="radio" id="Math" name="Math">
+            <label for="Architecture">Architecture:</label>
+            <input type="radio" id="Architecture" name="Architecture">
+            <label for="ComputerScience">Computer Science:</label>
+            <input type="radio" id="ComputerScience" name="Computer Science"><br>
+            <input type="submit" name="Submit" id="Submit">
+        </form>    
+        </div>
+        <div>
+          <ul>
+            <li>ARCH 110 - (Fall 2023)_MC</li>
+            <li>ARCH 195 - (Fall 2023)_MC</li>
+            <li>CS104005-Computer Programming & Graphics Problems</li>
+            <li>ENGL101085-Intro to Academic Writing</li>
+            <li>Mathematics A</li>
+            <li>FYSSEMA03-First-Year Seminar</li>
+          </ul>  
+        </div>
     </head>
 </html>
