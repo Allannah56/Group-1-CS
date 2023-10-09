@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Personal Portfolio
+    </title> 
+    <link rel = "stylesheet" href="style.css">
+    <body> 
+      <h1 style="text-align: center; background-color: rgb(210, 210, 230); color: rgb(240, 241, 255);"></h1>
+      <h3 style="color:white; background-color: rgb(84, 90, 160);">
+         Name of College: NJIT <br> UCID: agb46 <br> Degree Program: Architecture </h3>
+      <p style = "color: rgb(137, 137, 178);"> I live in state and I came to this school to run track. I also really <br> liked the architecture and design programs this school offers. I was <br> between the two for a long time before I finally decided on interior <br> design, and I'm going to get my masters in architecture. </p>
+    <a href="https://ist.njit.edu/pipeline">Highlander Pipeline</a><br>
+    <img src="https://th.bing.com/th/id/OIP.34Rf_-y3Y5ivsvl9u_SbmwHaE8?w=291&h=194&c=7&r=0&o=5&pid=1.7">
+    </body>
+    <div>
+       <table class="sample" style="width:25%">
+        <style>
+          table, th, td {
+            border:2px solid black;
+            <th background-color: lightgray;
+          }
+          </style>          
+        <tr>
+          <th style="background-color: lightgrey;">Education</th>
+          <th style="background-color: lightgrey;">Experience</th>
+          <th style="background-color: lightgrey;">Skills</th>
+        </tr>
+        <tr>
+          <td>Hunterdon Central 2023</td>
+          <td>Worked at Prestige Millwork</td>
+          <td>Student-Athlete</td>
+        </tr>
+        <tr>
+          <td>NJIT 2027</td>
+          <td>Track athlete</td>
+          <td>Piano</td>
+        </tr>
+        <tr>
+          <td> Honor Roll Student </td>
+          <td> 2020-Present </td>
+          <td> Flemington, NJ </td> 
+          </tr>
+      </table>
+    </div>
+    <br>
+    <div>
+    <form> 
+      <label for="uname">Username:</label> <br>
+      <input type="text" id="uname" name="uname"><br>
+      <label for="fname"> First Name</label> <br>
+      <input type="text" id="fname" name="fname"><br>
+      <lable for="lname">Last Name:</lable><br>
+      <input type="text" id="lname" name="lname"><br>
+      <label for="email">Email:</label><br>
+      <input type="text" id="email" name="email"><br>
+
+      <label for="Math">Math:</label>
+      <input type="checkbox" id="Math" name="Math">
+      <label for="Architecture"> Architecture:</label>
+      <input type="checkbox" id="Architecture" name="Architecture"> 
+      <labe for="ComputerScience">Computer Science:</label>
+      <input type="checkbox" id="ComputerScience" name="Computer Science"><br> 
+      <label for="Math">Math:</label>
+      <input type="radio" id="Math" name="Math">
+      <label for="Architecture"> Architecture:</label>
+      <input type="radio" id="Architecture" name="Architecture"> 
+      <labe for="ComputerScience">Computer Science:</label>
+      <input type="radio" id="ComputerScience" name="Computer Science"><br> 
+    </form>
+    </div>
+    <div>
+      <ul>
+        <li>AD150005-Color and Composition</li>
+        <li>AD161001-History of Art and Design 1</li>
+        <li>CS104005-Computer Programming and Graphics Problems</li>
+        <li>ENGL101083-Intro to Academic Writing</li>
+        <li>Math 107</li>
+        <li>FYSEMA15-First-Year Seminar</li>
+      </ul>
+    </div>
+    </head> 
+    <div>
+      <img class="img1" src="https://th.bing.com/th/id/R.36743b18c4b8a8c7ea1c5a3d004e1f38?rik=3DRlj7uYYzj%2foA&riu=http%3a%2f%2fwww.collegebaseballdaily.com%2fwp-content%2fuploads%2f2021%2f05%2fNJIT_Highlanders_logo.svg.png&ehk=DoW3tiDvSE%2boJJTBFWW9qXJz%2bc7XBNGUeBOnAybFgdc%3d&risl=&pid=ImgRaw&r=0">
+      <img class="img2" src="https://sportslogohistory.com/wp-content/uploads/2020/02/njit_highlanders_2006-pres-a.png">
+      <img class="img3" src="https://hr.njit.edu/wp-content/uploads/2015/12/campus1.jpg">
+    </div>
+</html>
