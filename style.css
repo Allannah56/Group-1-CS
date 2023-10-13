@@ -1,0 +1,36 @@
+th{
+    background-color: lightgray;
+    margin: 100px 100px 100px 100px;
+}
+table, th, td{
+    width: 2px;
+    color: black;
+    border-style: solid;
+}
+.cells{
+    padding: 10px;
+}
+.img1{
+    width: 150px;
+    height: 150px;
+    border: 5px dashed red; 
+    padding: 30px 30px 30px 30px;
+    height:  100%;
+    width: 25%;
+}
+.img2{
+    width: 150px;
+    height: 150px;
+    border: 5px dashed red;
+    padding: 30px 30px 30px 30px;
+    height: 7in;
+    width: 7in;
+}
+.img3{
+    width: 150px;
+    height: 150px;
+    border: 5px dashed red;
+    padding: 30px 30px 30px 30px;
+    height: 250pt;
+    width: 175pt;
+}
