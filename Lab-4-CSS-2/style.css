@@ -1,0 +1,55 @@
+th{
+    background-color: lightgray;
+}
+Table, th, td {
+    border: 2px solid black;
+} 
+table{
+    margin: 100px;
+}
+th{
+    padding: 10px;
+}
+td{
+    padding: 10px;
+}
+.img1{
+    width: 150px;
+    height: 150px;
+    border: 5px dashed red;
+    padding: 30px; 
+}
+.img2{
+    width: 150px;
+    height: 150px;
+    border: 5px dashed red;
+    padding: 30px; 
+}
+.img3{
+    width: 150px;
+    height: 150px;
+    border: 5px dashed red;
+    padding: 30px; 
+}
+.archireason{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-size: 25px;
+}
+.HCAD1:hover{
+background-color: red;
+border: 2px solid black;
+}
+.HCAD2:visited{
+    background-color: grey;
+    border: 2px solid black;
+}
+.HCAD3:active{
+    background-color: orange;
+    border: 2px solid black;
+}
+
+
+
