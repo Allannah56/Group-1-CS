@@ -34,3 +34,23 @@ table, th, td{
     height: 250pt;
     width: 175pt;
 }
+
+.para{
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-size: 25px;
+}
+
+.njit_link:hover{
+    background-color: red;
+}
+
+.HCAD_link:visited{
+    background-color: gray;
+}
+
+.BA_link:active{
+    background-color: orange;
+}
