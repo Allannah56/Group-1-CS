@@ -1,0 +1,56 @@
+.sample{
+    background-color: lightgray;
+    margin: 100px 100px 100px 100px;
+}
+table, th, td{
+    width:2px; 
+    color:black;
+    border-style: solid;
+}
+.cells{
+    padding:10px;
+}
+img.img1{
+   width: 150px;
+   height: 150px; 
+   border: 5px dashed red;
+   padding: 30px 30px 30px 30px; 
+   height: 50%;
+   width: 25%; 
+}
+img.img2{
+    width: 150px; 
+    height: 150px; 
+    border: 5px dashed red;
+    padding: 30px 30px 30px 30px;
+    height: 6in;
+    width: 6in; 
+}
+img.img3{
+    width: 150px; 
+    height:150px;
+    border: 5px dashed red; 
+    padding: 30px 30px 30px 30px;
+    height: 250pt;
+    width: 175pt;
+}
+
+.para{
+    text-align: center; 
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-family: monospace;
+    font-size: 25px;
+}
+
+.njit_link:hover{
+  background-color: red;
+}
+
+.HCAD_link:visited{
+    background-color: gray;
+}
+
+.BA_link:active{
+    background-color: orange;
+}
