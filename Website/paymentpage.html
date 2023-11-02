@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> body {
+font-family: Helvetica;
+}
+.topnav { overflow: auto;
+background-color: #fff;
+}
+.topnav a { float: left; color: #000;
+text-align: center; padding: 14px 16px; text-decoration: none; font-size: 16px;
+}
+.topnav a:hover { background-color: #f5e3d6; color: black;
+}
+.topnav a.active { background-color: #ec6a20; color: white;
+}
+input[type=text], select, textarea { width: 100%;
+padding: 12px;
+border: 1px solid #ccc; border-radius: 4px;
+box-sizing: border-box; margin-top: 6px; margin-bottom: 16px; resize: vertical;
+}
+input[type=submit] { background-color: #04AA6D; color: white;
+padding: 12px 20px; border: none;
+border-radius: 4px; cursor: pointer;
+}
+input[type=submit]:hover { background-color: #45a049;
+}
+.container {
+border-radius: 5px; background-color: #f2f2f2; padding: 20px;
+}
+</style>
+</head>
+<body>
+<h1>Payment Information </h1>
+<div style=padding-left:16px;padding-right:16px>
+<h4>Payment Type</h4>
+<img
+src="https://th.bing.com/th/id/OIP.x7hVJon8m_LPVB2AyBfYwgHaEK?pid=ImgDet&rs=1" alt="Visa" width="30" height="20" style=padding-left:5px>
+
+<img
+src="https://logodownload.org/wp-content/uploads/2014/07/mastercard-logo.png" alt="MasterCard" width="30" height="20" style=padding-left:5px>
+<div class="topnav" style=display:inline-block>
+
+<img
+src="https://awardwallet.com/blog/wp-content/uploads/2017/12/Discover-Card-logo.png" alt="Discover" width="100" height="18" style=padding-left:5px>
+
+<img
+src="https://pngimg.com/uploads/paypal/paypal_PNG4.png" alt="Discover" width="60" height="20" style=padding-left:5px>
+
+</div>
+
+<div class="container">
+<label for="Card Number"></label>
+<input type="text" id="Card Number" placeholder="Card Number">
+<label for="Expires"></label>
+<input type="text" id="Expires" placeholder="Expires">
+<label for="Security Code"></label>
+<input type="text" id="Security Code" placeholder="Security Code">
+
+</div>
+<div style=padding-left:16px;padding-right:16px>
+<h3>Billing Info</h3>
+<div class="container">
+<form action="/action_page.php">
+<label for="name"></label>
+<input type="text" id="name" placeholder="First name">
+<label for="name"></label>
+<input type="text" id="name" placeholder="Last name">
+<label for="Address line 1"></label>
+<input type="text" id="Address line 1" placeholder="Address line 1">
+<label for="Address line 2"></label>
+<input type="text" id="Address line 2" placeholder="Address line 2">
+<label for="Address line 2"></label>
+<input type="text" id="City" placeholder="City">
+<label for="state"></label>
+<select id="state" name="State">
+<option value="feedback/suggestions">State</option>
+<option value="Alabama">Alabama</option>
+<option value="Alaska">Alaska</option>
+<option value="Arizona">Arizona</option>
+<option value="Arkansas">Arkansas</option>
+<option value="California">California</option>
+<option value="Colorado">Colorado</option>
+<option value="Connecticut">Connecticut</option>
+<option value="Delaware">Delaware</option>
+<option value="Florida">Florida</option>
+<option value="Georgia">Georgia</option>
+<option value="Hawaii">Hawaii</option>
+<option value="Idaho">Idaho</option>
+<option value="Illinois">Illinois</option>
+<option value="Indiana">Indiana</option>
+<option value="Iowa">Iowa</option>
+<option value="Kansas">Kansas</option>
+<option value="Kentucky">Kentucky</option>
+<option value="Louisiana">Louisiana</option>
+<option value="Maine">Maine</option>
+<option value="Maryland">Maryland</option>
+<option value="Massachusetts">Massachusetts</option>
+<option value="Michigan">Michigan</option>
+
+<option value="Minnesota">Minnesota</option>
+<option value="Mississippi">Mississippi</option>
+<option value="Missouri">Missouri</option>
+<option value="Montana">Montana</option>
+<option value="Nebraska">Alaska</option>
+<option value="Nevada">Nevada</option>
+<option value="New Hampshire">New Hampshire</option>
+<option value="New Jersey">New Jersey</option>
+<option value="New Mexico">New Mexico</option>
+<option value="New York">New York</option>
+<option value="North Carolina">North Carolina</option>
+<option value="North Dakota">North Dakota</option>
+<option value="Ohio">Ohio</option>
+<option value="Oklahoma">Oklahoma</option>
+<option value="Oregon">Oregon</option>
+<option value="Pennsylvania">Pennsylvania</option>
+<option value="Rhode Island">Rhode Island</option>
+<option value="South Carolina">South Carolina</option>
+<option value="South Dakota">South Dakota</option>
+<option value="Tennessee">Tennessee</option>
+<option value="Texas">Texas</option>
+<option value="Utah">Utah</option>
+<option value="Vermont">Vermont</option>
+<option value="Virginia">Virginia</option>
+<option value="Washington">Washington</option>
+<option value="West Virginia">West Virginia</option>
+<option value="Wisconsin">Wisconsin</option>
+<option value="Wyoming">Wyoming</option>
+</select>
+
+<input type="text" id="Email Address" placeholder="Email Address">
+<label for="Email Address"></label>
+<input type="text" id="Phone #" placeholder="Phone #">
+<label for="Phone #"></label>
+
+
+</form>
+</div>
+</div>
+</body>
+</html>
