@@ -1,0 +1,170 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title style="color: blueviolet;">
+            Personal Portfolio
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"> 
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+       
+    </head>
+    <body>
+        <center> <h1 id="sample">Personal Portfolio</h1> </center> 
+
+        <script>
+         let num1=20; 
+         let num2=10;
+         console.log(num1+num2)
+         console.log(num1-num2)
+         console.log(num1*num2)
+         console.log(num1/num1)
+         
+         score = 60;
+
+         function calculateGrade(score) {
+         if (score >=90) {
+            console.log("Grade: A");
+         } else if (score >=80 && score <=89) {
+            console.log("Grade: B");
+         } else if (score >= 70 && score <=90) {
+             console.log("Grade: C");
+         } else if (score >= 60 && score <=69) {
+            console.log("Grade: D")
+         } else {
+            console.log("Grade F");
+         }
+        }
+calculateGrade(score);
+        </script>
+
+<br>
+<button id="changeTextBtn">Change Text</button>
+<p id="displayText"Original Text></p>
+
+<script>
+    changeTextBtn = document.getElementById("changeTextBtn");
+    displaytext = document.getElementById("displayText");
+    changeTextBtn.addEventListener("click", myFunction);
+    function myFunction() {alert ("Hello World!");
+}
+function changeText(){
+  displayText.textContent= "Hello, JavaScript World!";}
+</script>
+<script>
+    document.getElementById("myform").addEventListener("submit", function(event) 
+    { event.preventDefault(); 
+    
+        var username = document.getElementById("username").value;
+        var password = document.getElementById("password").value;
+        if (username === null || password === "") {
+        alert("please fill in username and password");
+        } else {
+        setTimeout(function() {
+        alert("submission successful after 3 seconds.");
+    }, 3000);
+    }
+    });
+    </script>
+
+        <h1 style="color: rgb(172, 116, 224); background-color: bisque;"> Michelle Caceres</h1>
+        <h3 style="color: rgb(172, 116, 224); background-color: bisque;"> NJIT, mac338, B.Architecture</h3>
+        <p style="color: rgb(172, 116, 224); background-color: bisque;">
+            I'm a currect student enrolled in Hiller College of Architecture And Design <br>
+            at NJIT. I'll be part of this school for 5 years studying about everything <br>
+            involving architecture. I'm passianate about this career choice, so hopefully <br> 
+            everthing goes well. 
+        </p>
+        <a href="https://www.njit.edu/"> NJIT </a>
+        <img src="EX 2.png" alt="My second architecture project">
+          <div>
+            <style>
+            Table, th, td {
+                border: 1px solid black;
+            } 
+            </style>
+            <Table class="table table-bordered table-stripped"> 
+              <tr>
+                <th><h1>Education</h1></th><br>
+                <th><h1> Experience</h1></th>
+                <th><h1>Skills</h1></th><br>
+              </tr>
+              <tr>
+                <td>Hilled Colloge of Architecture and Design at NJIT</td>
+                <td>No experience yet</td>
+                <td>Creative<br> Critcal thinking<br> Collavorative <br> Quick Learner</td>
+              </tr>
+              <tr>
+                <td>5 year B.A of Architecture</td>
+                <td> Worked at Journeys for 6 months</td>
+                <td> Tennis </td>
+              </tr>
+            </Table>
+            <br>
+        </div>
+        <div>
+            <form>
+                <label for="Username"> Username</label> <br>
+                <input type="text" id="Username" name="Username"><br>
+                <label for="First Name"> First Name</label> <br>
+                <input type="text" id="First Name" name="Fist Name"><br>
+                <label for="Last Name"> Last Name </label> <br>
+                <input type="text" id="Last Name" name="Last Name"><br>
+                <label for="Email"> Email </label> <br>
+                <input type="email" id="email"> <br>
+                <input type="checkbox" id="Mathematics" name="mathematics" value="Mathematics">
+                <label for="mathematics"> Math </label><br>
+                <input type="checkbox" id="Architecture">
+                <label for="Architecture"> Architecture </label><br>
+                <input type="checkbox" id="Compute Science" name="Compute Science">
+                <label for="Computer Science"> Compute Science </label> <br>
+                <input type="radio" id="Math"> 
+                <label for="Math"> Math </label><br>
+                <input type="radio" id="Architecture">
+                <label for="Architecture"> Architecture </label> <br>
+                <input type="radio" id="Computer Science">
+                <label for="Compute Science"> Computer Science </label> <br>
+                <input type="submit" value="submit">
+            </form>
+        </div>
+        <div>
+            <ul>
+                <li>Tools and Techniques</li><br>
+                <li>Pre-Calculus</li><br>
+                <li>Studio 1</li><br>
+                <li>English 101</li><br>
+                <li>Computer Programming</li><br>
+                <li>First Year Seminar</li>
+            </ul>
+        </div>
+        <div>
+            <img src="pochacco.png" alt="img1" class="img1">
+            <img src="bunny.png"  alt="img2" class="img2">
+            <img src="sanrio.png" alt="img3" class="img3">
+        </div>
+        <p class="archireason">
+            Architecture has been a dream without knowing. I enjoyed bulding legos, and drawing different things. <br>
+            As I satrt this new journey, I'll start learning new things. With those new thngs, multiple mistakes <br>
+            come along too. 
+        </p>
+        <ul>
+           <li><a class="HCAD1" href="https://design.njit.edu/"> HCAD link 1 </a></li> 
+           <li><a class="HCAD2" href="https://design.njit.edu/"> HCAD link 2</a> </li>
+           <li><a class="HCAD3" href="https://design.njit.edu/"> HCAD Link 3</a></li>
+        </ul>
+        <div class="dropdown">
+            <button type="button" class="btn btn-primary dropdow-toggle" data-bs-toggle="dropdown">Dropdown Button</button>
+            <ul class="dropdown-menu">
+                <il><a class="dropdown-item" href="#">HCAD1</a></il>
+                <il><a class="dropdown-item" href="#">HCAD2</a></il>
+                <il><a class="dropdown-item" href="#">HCAD2</a></il>
+            </ul>
+        </div>
+        <div>
+            <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo">Simple collapsible</button>
+            <div id="demo" class="collapse">
+                Architecture is fun so far. I recommend for the people that truly has a passion to creation. 
+            </div>
+        </div>
+    </body>
+</html>
