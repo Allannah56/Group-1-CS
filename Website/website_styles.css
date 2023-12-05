@@ -48,7 +48,7 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-.img1{
+.img-1{
     width: 300px;
     height: 300px;
     margin: -315px 350px 0px 100px;
@@ -132,3 +132,197 @@ button:hover{
 h2, label, input, a, .form-check-label, body{
     font-family: 'Times New Roman', Times, serif;
 }
+
+    
+    p {
+        font-size: 18px;
+    }
+    
+    p1 {
+        font-size: 12px;
+    }
+    
+    .Ladder:hover{
+        background-color: red;
+        border: 2px solid black;
+    }
+    
+    .hammer:hover{
+        background-color: red;
+        border: 2px solid black;
+    }
+    
+    .iPhone:hover{
+        background-color: red;
+        border: 2px solid black;
+    }
+    
+    .camera:hover{
+        background-color: red;
+        border: 2px solid black;
+    }
+    
+    .airmattress:hover{
+        background-color: red;
+        border: 2px solid black;
+    }
+    
+    .reclinablechair:hover{
+        background-color: red;
+        border: 2px solid black;
+    }
+    
+    .snowconemachine:hover{
+        background-color: red;
+        border: 2px solid black;
+    }
+    
+    
+    .vacuumcleaner:hover{
+        background-color: red;
+        border: 2px solid black;
+    }
+    
+    
+    
+    div3 {
+        border: 1px solid black;
+        background-color: lightyellow;
+        padding: 4px;
+    }
+    
+    div4 {
+        border: 1px solid black;
+        background-color: lightyellow;
+        padding: 4px;
+    }
+    
+    div5 {
+        border: 1px solid black;
+        background-color: lightyellow;
+        padding: 4px;
+    }
+    
+    
+    div6 {
+        border: 1px solid black;
+        background-color: lightyellow;
+        padding: 4px;
+    
+    }
+    
+    div7 {
+        border: 1px solid black;
+        background-color: lightyellow;
+        padding: 4px;
+    
+    }
+    
+    div8 {
+        border: 1px solid black;
+        background-color: lightyellow;
+        padding: 4px;
+    
+    }
+    
+    div9 {
+        border: 1px solid black;
+        background-color: lightyellow;
+        padding: 4px;
+    
+    }
+    
+    div10 {
+        border: 1px solid black;
+        background-color: lightyellow;
+        padding: 4px;
+    
+    }
+    
+    
+    .img1{
+        width: 200px;
+        height: 200px;
+        border: 1px solid black; 
+        padding: 5px 5px 5px 5px;
+        height:  100%;
+        width: 20%;
+        margin: auto;
+    }
+    
+    .img2{
+        width: 200px;
+        height: 200px;
+        border: 1px solid black; 
+        padding: 5px 5px 5px 5px;
+        height:  100%;
+        width: 20%;
+    }
+    
+    .img3{
+        width: 200px;
+        height: 200px;
+        border: 1px solid black; 
+        padding: 5px 5px 5px 5px;
+        height:  100%;
+        width: 20%;
+    }
+    
+    
+    .img4{
+        width: 200px;
+        height: 200px;
+        border: 1px solid black; 
+        padding: 5px 5px 5px 5px;
+        height:  100%;
+        width: 20%;
+    }
+    
+    .img5{
+        width: 200px;
+        height: 200px;
+        border: 1px solid black; 
+        padding: 5px 5px 5px 5px;
+        height:  100%;
+        width: 20%;
+    }
+    
+    .img6{
+        width: 200px;
+        height: 200px;
+        border: 1px solid black; 
+        padding: 5px 5px 5px 5px;
+        height:  100%;
+        width: 20%;
+    }
+    
+    .img7{
+        width: 200px;
+        height: 200px;
+        border: 1px solid black; 
+        padding: 5px 5px 5px 5px;
+        height:  100%;
+        width: 20%;
+    }
+    
+    
+    .img8{
+        width: 200px;
+        height: 200px;
+        border: 1px solid black; 
+        padding: 5px 5px 5px 5px;
+        height:  100%;
+        width: 20%;
+    }
+    
+    
+    .italic {
+        font-style: italic;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    
+    .p1 {
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
